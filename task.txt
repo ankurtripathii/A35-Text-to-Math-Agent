@@ -1,0 +1,14 @@
+Task 1 Answers
+1. What is a Text-to-Math problem?
+A Text-to-Math problem is a natural language question that describes a mathematical problem
+
+2. Why are agents useful for math reasoning?
+Agents can analyze the problem, choose the appropriate tool such as a calculator, perform accurate calculations, and return reliable answers
+
+3. Difference between a normal LLM response and agent-based reasoning
+
+Normal LLM	                                           - Agent
+Answers from its learned knowledge	        Uses external tools for calculations
+May make calculation mistakes	           Produces accurate mathematical results
+No tool usage	                            Can call calculator and other tools
+Limited reasoning	                           Better multi-step reasoning
