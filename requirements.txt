@@ -2,5 +2,4 @@ streamlit
 langchain
 langchain-community
 langchain-ollama
-numexprnumexpr
 numexpr
