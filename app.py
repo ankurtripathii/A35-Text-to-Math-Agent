@@ -28,7 +28,7 @@ def get_agent():
         agent=AgentType.CHAT_ZERO_SHOT_REACT_DESCRIPTION,
         verbose=True, max_iterations=8, handle_parsing_errors=True,
         early_stopping_method="generate",
-        handles_tool_errors=True,
+      
     )
 
 agent = get_agent()
