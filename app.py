@@ -5,7 +5,6 @@ from langchain_ollama import ChatOllama
 from langchain.agents import initialize_agent, AgentType
 from langchain_community.tools import Tool
 
-# --- rebuild the same pieces from the notebook ---
 def calculator(expression):
     expression = expression.strip()
     expression = re.sub(r'(\d+(?:\.\d+)?)\s*%\s*of\s*(\d+(?:\.\d+)?)',
@@ -47,7 +46,7 @@ def solve_math(question, previous_context=""):
 def clean_answer(answer):                     # <-- new, goes right after solve_math
     return answer.replace("$", "").strip()
 
-# --- Streamlit UI ---
+
 st.set_page_config(page_title="Text-to-Math Agent")
 st.title("Text-to-Math Agent")
 
